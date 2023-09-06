@@ -1,38 +1,136 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+}
+/* sign in page css  */
+.signin-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; 
+  
+}
+
+.left-section {
+  flex: 1; 
+  padding: 5px; 
+   
+}
+
+.right-section {
+  flex: 1; /* Takes up 50% of the container width */
+  padding: 5 px; /* Optional: Add padding to the right section */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column; 
+  align-items: center;
+  
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logoviit {
+  max-width: 150px; /* Adjust the max-width as needed */
+  height: auto; /* Maintain aspect ratio */
+  
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.leftimage {
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  height: auto; /* Maintain aspect ratio */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  color: rgb(70, 71, 191); /* Color for "SIGN" */
+}
+
+h2 strong:last-child {
+  color: rgb(243, 156, 18); /* Color for "IN" */
+}
+
+form {
+  
+  width: 100%;
+  max-width: 300px; /* Adjust the form width as needed */
+}
+.form-group {
+  
+  margin-bottom: 20px; /* Optional: Add margin between form elements */
+}
+
+
+input[type="email"] {
+  width: 138%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+input[type="password"] {
+  width: 138%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  
+  border-radius: 15px;
+}
+.signinbutton ,.signupbutton-1{
+  width: 150%;
+  padding: 10px;
+  background-color: #007bff; /* Customize the button color */
   color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.signinbutton:hover,.signupbutton-1:hover {
+  background-color: #0056b3; /* Customize the button hover color */
+}
+.signupbutton,.signinbutton-1{
+  width: 150%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  color: blue;
+}
+.signupbutton:hover,.signinbutton-1:hover{
+  text-decoration: underline;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 600px) {
+  .left-section {
+    display: none; /* Hide the left section */
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+
+/* eyeicon */
+
+.pwd-container {
+  position: relative;
+  width: 138%; /* Set the container width to 138% */
+}
+
+.pwd-container input {
+  width: 100%; /* Set the input width to 100% to fill the container */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.pwd-container img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: 10px; /* Adjust the right value to move the image to the end */
+  top: 50%; /* Vertically center the image */
+  transform: translateY(-50%); /* Correctly center the image vertically */
 }
