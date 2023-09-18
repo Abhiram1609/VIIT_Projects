@@ -14,7 +14,7 @@ export default function Profile() {
                 <div className="info-container">
                     <div className="prn-year">
                         <h3 className="main">PRN</h3>
-                        <h3 className="main-info">22010458</h3>
+                        <h3 className="main-info">22010abc</h3>
                         <h3 className="main">Year</h3>
                         <h3 className="main-info">B.Tech</h3>
                         <h3 className="main">Department</h3>
