@@ -16,7 +16,7 @@ export default function Profile() {
                         <h3 className="main">PRN</h3>
                         <h3 className="main-info">22010abc</h3>
                         <h3 className="main">Year</h3>
-                        <h3 className="main-info">B.Tech</h3>
+                        <h3 className="main-info">Final Year</h3>
                         <h3 className="main">Department</h3>
                         <h3 className="main-info">Computer Engineering</h3>
                     </div>
