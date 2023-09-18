@@ -24,7 +24,7 @@ export default function Profile() {
                         <h3 className="main">Email ID</h3>
                         <h3 className="main-info">xyz.22010abc@viit.ac.in</h3>
                         <h3 className="main">Mobile No</h3>
-                        <h3 className="main-info">77099abcde</h3>
+                        <h3 className="main-info">77099abcdehjg</h3>
                     </div>
                     {/* <div className="dep">
                         <h3 className="main">Department</h3>
