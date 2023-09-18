@@ -22,9 +22,9 @@ export default function Profile() {
                     </div>
                     <div className="mail-mob">
                         <h3 className="main">Email ID</h3>
-                        <h3 className="main-info">xyz.22010abcefg@viit.ac.in</h3>
+                        <h3 className="main-info">xyz.22010abcg@viit.ac.in</h3>
                         <h3 className="main">Mobile No</h3>
-                        <h3 className="main-info">77099abcdehjgjhjgjfbjsef</h3>
+                        <h3 className="main-info">7709946197</h3>
                     </div>
                     {/* <div className="dep">
                         <h3 className="main">Department</h3>
