@@ -6,7 +6,7 @@ import Profile from './pages/Profile';
 import Signinpage from "./pages/Signinpage";
 
 import SignupPage from './pages/SignupPage';
-// import Accordion from './pages/Accordian';
+import Accordion from './pages/Accordian';
 
 
 function App() {
