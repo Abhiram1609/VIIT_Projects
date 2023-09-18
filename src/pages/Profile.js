@@ -8,7 +8,7 @@ export default function Profile() {
             <NavbarCustom />
             <div className="profile-container">
                 <div className="profile-head" style={{width: '100%', height: '20%', background: 'linear-gradient(87deg, #0047FF 0%, rgba(0, 239.70, 255, 0.80) 100%)', borderRadius: 20}}>
-                        <h1>Abhiram Patankar</h1>
+                        <h1>Aman Deshpande</h1>
                         <img src={profileImg} alt="picture" />
                 </div>
                 <div className="info-container">
