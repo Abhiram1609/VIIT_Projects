@@ -18,7 +18,7 @@ export default function Profile() {
                         <h3 className="main">Year</h3>
                         <h3 className="main-info">B.Tech</h3>
                         <h3 className="main">Department</h3>
-                        <h3 className="main-info">Computer Engineering</h3>
+                        <h3 className="main-info">ENTC</h3>
                     </div>
                     <div className="mail-mob">
                         <h3 className="main">Email ID</h3>
