@@ -1,13 +1,10 @@
-
-import './App.css';
-import Home from './pages/Home';
-import Profile from './pages/Profile';
+import "./App.css";
+import Home from "./pages/Home";
+import Profile from "./pages/Profile";
 
 import Signinpage from "./pages/Signinpage";
 
-import SignupPage from './pages/SignupPage';
-import Accordion from './pages/Accordian';
-
+import SignupPage from "./pages/SignupPage";
 
 function App() {
   return (
@@ -16,7 +13,6 @@ function App() {
       <Signinpage />
       <Home />
       <Profile />
-      {/* <Accordion></Accordion> */}
     </div>
   );
 }

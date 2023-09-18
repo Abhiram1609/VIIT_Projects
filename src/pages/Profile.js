@@ -14,17 +14,21 @@ export default function Profile() {
                 <div className="info-container">
                     <div className="prn-year">
                         <h3 className="main">PRN</h3>
-                        <h3 className="main-info">22010abc</h3>
+                        <h3 className="main-info">22010458</h3>
                         <h3 className="main">Year</h3>
                         <h3 className="main-info">B.Tech</h3>
                         <h3 className="main">Department</h3>
-                        <h3 className="main-info">Computer Engineering</h3>
+                        <h3 className="main-info">IT</h3>
                     </div>
                     <div className="mail-mob">
                         <h3 className="main">Email ID</h3>
-                        <h3 className="main-info">xyz.22010abcefg@viit.ac.in</h3>
+                        <h3 className="main-info">xyz.22010abcg@viit.ac.in</h3>
                         <h3 className="main">Mobile No</h3>
+<<<<<<< HEAD
                         <h3 className="main-info">7709946197</h3>
+=======
+                        <h3 className="main-info">7709946xyz</h3>
+>>>>>>> 6b32147ccd4e2c1232a0ffa9f64330a404358fc0
                     </div>
                     {/* <div className="dep">
                         <h3 className="main">Department</h3>
